@@ -1,0 +1,9 @@
+[package]
+name = "simplesso"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.3.11", features = ["derive"] }
+nalgebra = "0.32.2"
+time = "0.3.22"
